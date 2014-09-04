@@ -1,0 +1,131 @@
+
+<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#top">
+            <img style="float:left" class="img-responsive pull-left" src="/assets/traveltmate_logo_or-crop.png"></img>
+          </a>
+        </div> <!-- /.navbar-header -->
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#know" class="nav-link">About</a></li>
+            <li><a href="#benefits" class="nav-link">Benefits</a></li>
+            <li><a href="#how" class="nav-link">How does it work?</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><button class="btn btn-default navbar-btn">Sign Up</button></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container -->
+</nav> <!-- /.navbar -->
+
+<div id="top" class="jumbotron">
+  <div class="container">
+    <h1>travelTmate</h1>
+    <h2>An ulTmate app to inTmate.</h2>
+    <h3>An android based app to track and set location based alarms.</h3>
+    <br>
+    <br>
+	  <p><a class="btn btn-grey btn-lg">Explore    <span class="glyphicon glyphicon-hand-right"></span></a></p>
+  </div> <!-- /.container -->
+</div> <!-- /.jumbotron -->
+
+
+<div class="container">
+
+  <h3 id="know" class="subhead">About</h3>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <p class="text-justify">Have you ever felt to share your current location to friends / family members automatically when you are in your travel. TravelTmate is the way forward which will be your complete travel companion.</p>
+          <p class="text-justify">TravelTmate, an android app, achieves this by helping you to share your location during ur travel with just few clicks.Not just this, set up a wake up alarm for your destination and travel tension free.</p>
+          <p class="text-justify">When you are driving your car /bike,just set your traveltmate once and you need not pick your phone for the rest of your travel to intimate your whereabouts to your near and dear.Keep your buddies updated and they will not bother you.</p>
+          <p class="text-justify">And the good news is,the communication is through your sms service and it is not necessary for your buddy to have this app.</p>
+          <p class="text-justify">With so much of capabilities and features and a simple User Interface ,travelTmate is ur ulTmate app to inTmate your buddies!!</p>
+          <p class="well text-center">So what are you waiting for?? Click here to get your own travelTmate and have a happy and safe travel everytime..</p>
+        </div> <!-- /.col-md-10 -->
+      </div> <!-- /.row -->
+
+      <div class="sect-border"></div>
+
+	<h3 id="benefits" class="subhead">Benefits</h3>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 benefit">
+          <div class="benefit-ball">
+            <span class="glyphicon glyphicon-home"></span>
+          </div>
+          <h3>Stay connected</h3>
+          <p>Never lose touch with your buddies when you travel out.</p>
+        </div> <!-- /.benefit -->
+
+        <div class="col-md-4 col-sm-6 benefit">
+          <div class="benefit-ball">
+            <span class="glyphicon glyphicon-bell"></span>
+          </div>
+          <h3>Snooze off</h3>
+          <p>No need to have a wake up alarm 30 mins before your destination and keep waiting to offboard.</p>
+        </div> <!-- /.benefit -->
+
+        <div class="col-md-4 col-sm-6 benefit">
+          <div class="benefit-ball">
+            <span class="glyphicon glyphicon-headphones"></span>
+          </div>
+          <h3>Handsfree</h3>
+          <p>No more frequent calls or sms on your whereabouts, when you are driving in traffic.</p>
+        </div> <!-- /.benefit -->
+
+        <div class="col-md-4 col-sm-6 benefit">
+          <div class="benefit-ball">
+            <span class="glyphicon glyphicon-map-marker"></span>
+          </div>
+          <h3>Keep people informed</h3>
+          <p>Share your location updates with your close friends and family.</p>
+        </div> <!-- /.benefit -->
+
+        <div class="col-md-4 col-sm-6 benefit">
+          <div class="benefit-ball">
+            <span class="glyphicon glyphicon-time"></span>
+          </div>
+          <h3>Just in time</h3>
+          <p>Waiting for long to receive your friend or relative in stations and bus stops?? - Not any more!!</p>
+        </div> <!-- /.benefit -->
+
+        <div class="col-md-4 col-sm-6 benefit">
+          <div class="benefit-ball">
+            <span class="glyphicon glyphicon-thumbs-up"></span>
+          </div>
+          <h3>Know your journey</h3>
+          <p>If you dont know when u will reach your destination, no worries.</p>
+        </div> <!-- /.benefit -->
+      </div> <!-- /.row -->
+
+      <div class="sect-border"></div>
+
+
+
+
+</div>
+
+
+    <footer>
+      <div class="container clearfix">
+        <p class="pull-left">
+          Copyright &copy; travelTmate
+        </p>
+        
+      </div> <!-- /.container -->
+    </footer>
+
+    <script>
+      $(".nav-link").click(function(e) {
+        e.preventDefault();
+        var link = $(this);
+        var href = link.attr("href");
+        $("html,body").animate({scrollTop: $(href).offset().top - 80}, 500);
+        link.closest(".navbar").find(".navbar-toggle:not(.collapsed)").click();
+      });
+    </script>
